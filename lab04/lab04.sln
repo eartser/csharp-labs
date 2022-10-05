@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LuckyTicketsCounter", "LuckyTicketsCounter\LuckyTicketsCounter.csproj", "{B3DCCDD5-7C8E-4E00-BF2A-15EB05A4861F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HamstersSort", "HamstersSort\HamstersSort.csproj", "{FAD6D5E4-C8F3-49DC-8CBF-090CBDB45887}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Delegates", "Delegates\Delegates.csproj", "{6DD09A25-88E5-490D-88E3-FBA057B91EFF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B3DCCDD5-7C8E-4E00-BF2A-15EB05A4861F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3DCCDD5-7C8E-4E00-BF2A-15EB05A4861F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3DCCDD5-7C8E-4E00-BF2A-15EB05A4861F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3DCCDD5-7C8E-4E00-BF2A-15EB05A4861F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FAD6D5E4-C8F3-49DC-8CBF-090CBDB45887}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAD6D5E4-C8F3-49DC-8CBF-090CBDB45887}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAD6D5E4-C8F3-49DC-8CBF-090CBDB45887}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAD6D5E4-C8F3-49DC-8CBF-090CBDB45887}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DD09A25-88E5-490D-88E3-FBA057B91EFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DD09A25-88E5-490D-88E3-FBA057B91EFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DD09A25-88E5-490D-88E3-FBA057B91EFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DD09A25-88E5-490D-88E3-FBA057B91EFF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
