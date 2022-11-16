@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlackBox", "BlackBox\BlackBox.csproj", "{E94AEA84-7451-422F-9781-732AC05789AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrackingAttributes", "TrackingAttributes\TrackingAttributes.csproj", "{3FCF1A8B-2894-46CB-9D07-EA1B772E7D4E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NestedEnvelopes", "NestedEnvelopes\NestedEnvelopes.csproj", "{83381028-8043-4DF8-B378-5ACDFC2082B7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E94AEA84-7451-422F-9781-732AC05789AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E94AEA84-7451-422F-9781-732AC05789AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E94AEA84-7451-422F-9781-732AC05789AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E94AEA84-7451-422F-9781-732AC05789AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FCF1A8B-2894-46CB-9D07-EA1B772E7D4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FCF1A8B-2894-46CB-9D07-EA1B772E7D4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FCF1A8B-2894-46CB-9D07-EA1B772E7D4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FCF1A8B-2894-46CB-9D07-EA1B772E7D4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83381028-8043-4DF8-B378-5ACDFC2082B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83381028-8043-4DF8-B378-5ACDFC2082B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83381028-8043-4DF8-B378-5ACDFC2082B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83381028-8043-4DF8-B378-5ACDFC2082B7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
