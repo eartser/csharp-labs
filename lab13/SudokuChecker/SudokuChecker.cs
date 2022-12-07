@@ -2,20 +2,32 @@ namespace SudokuChecker;
 
 public class SudokuChecker
 {
+    private bool _res = true;
+    
     public bool Check(List<List<string>> table)
     {
-        var res = true;
+        _res = true;
+
+        var threads = new List<Thread>();
+
         for (int i = 0; i < 9; i++)
         {
-            res &= CheckSequence(GetRowByIndex(table, i));
-            res &= CheckSequence(GetColumnByIndex(table, i));
-            res &= CheckSequence(GetBlockByIndex(table, i));
-
-            if (!res)
-                break;
+            var index = i;
+            threads.Add(new Thread(() => CheckSequence(GetRowByIndex(table, index))));
+            threads.Add(new Thread(() => CheckSequence(GetColumnByIndex(table, index))));
+            threads.Add(new Thread(() => CheckSequence(GetBlockByIndex(table, index))));
         }
 
-        return res;
+        foreach (var thread in threads)
+        {
+            thread.Start();
+        }
+        foreach (var thread in threads)
+        {
+            thread.Join();
+        }
+
+        return _res;
     }
 
     private static List<string> GetRowByIndex(List<List<string>> table, int i)
@@ -45,7 +57,7 @@ public class SudokuChecker
         return block;
     }
 
-    private static bool CheckSequence(IEnumerable<string> seq)
+    private void CheckSequence(IEnumerable<string> seq)
     {
         var numericList = seq
             .Where(it => it != ".")
@@ -53,6 +65,6 @@ public class SudokuChecker
             .ToList();
         numericList.Sort();
         var numericSet = new HashSet<int>(numericList);
-        return numericList.All(it => it >= 1 && it <= 9) && numericList.Count == numericSet.Count;
+        _res &= numericList.All(it => it >= 1 && it <= 9) && numericList.Count == numericSet.Count;
     }
 }
