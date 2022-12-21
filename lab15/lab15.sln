@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BearAndBees", "BearAndBees\BearAndBees.csproj", "{E8B89307-6F6C-47E8-94AA-4CD289A7FE64}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SleepingBarber", "SleepingBarber\SleepingBarber.csproj", "{B0AE9A07-97D6-4339-B2A3-6457F684C5E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyWaitAll", "MyWaitAll\MyWaitAll.csproj", "{AF7C4F51-4FE8-4C8A-A82A-F7CE4A8A04DA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E8B89307-6F6C-47E8-94AA-4CD289A7FE64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8B89307-6F6C-47E8-94AA-4CD289A7FE64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8B89307-6F6C-47E8-94AA-4CD289A7FE64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8B89307-6F6C-47E8-94AA-4CD289A7FE64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0AE9A07-97D6-4339-B2A3-6457F684C5E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0AE9A07-97D6-4339-B2A3-6457F684C5E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0AE9A07-97D6-4339-B2A3-6457F684C5E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0AE9A07-97D6-4339-B2A3-6457F684C5E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF7C4F51-4FE8-4C8A-A82A-F7CE4A8A04DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF7C4F51-4FE8-4C8A-A82A-F7CE4A8A04DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF7C4F51-4FE8-4C8A-A82A-F7CE4A8A04DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF7C4F51-4FE8-4C8A-A82A-F7CE4A8A04DA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
